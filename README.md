@@ -64,6 +64,10 @@ docker-compose down
 
 Next, check there is no application running on port 80 (like Apache or another virtual machine).
 
+In Linux you can run one of the following commands:
+* `ss -tulw | grep 80`
+* `sudo lsof -i:80`
+
 ---
 
 Next, make sure there is no application running on port 80.
