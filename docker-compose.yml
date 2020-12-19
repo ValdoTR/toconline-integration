@@ -36,7 +36,7 @@ services:
       STARTUP_COMMAND_1: "yarn"
       # Nuxt.js dev.
       # ---------------------
-      # Either Vagrant or Docker requires the usage of polling, otherwise Nuxt.js does not recompile our code
+      # Docker requires the usage of polling, otherwise Nuxt.js does not recompile our code
       # as fast as we would like.
       CHOKIDAR_USEPOLLING: "1"
       CHOKIDAR_INTERVAL: "3000" # Lower values might increase CPU usage.
